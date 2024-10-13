@@ -46,8 +46,11 @@ O aplicativo permite que os usuários criem, leiam, atualizem e excluam (CRUD) d
 2. 4 Telas:
 
 Tela principal: Exibe uma mensagem de boas-vindas e fornece acesso ao gerenciamento de estudos.
+
 Tela de cadastro: Permite ao usuário adicionar novas disciplinas, conteúdos, horário e dia planejados para estudo.
+
 Tela de estudos pendentes: Exibe uma lista das disciplinas cadastradas, permitindo marcar como estudado ou excluir um item.
+
 Tela de estudos realizados: Exibe as disciplinas marcadas como estudadas, permitindo voltar algum item para os estudos pendentes ou até mesmo excluir.
 
 3. Notificações Locais:
