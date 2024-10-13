@@ -8,41 +8,54 @@ RA - 72250217
 READ_ME
 
 Descrição do Projeto
+
 O Guia de Estudos é um aplicativo Android nativo desenvolvido com Kotlin, projetado para ajudar os usuários a organizarem seus estudos. Ele permite o gerenciamento de disciplinas e conteúdos a serem estudados, possibilitando o cadastro, visualização, atualização e exclusão (CRUD) de informações. O aplicativo também conta com notificações locais para lembrar os usuários dos estudos pendentes.
 
 Autor
+
 Lucas Vasco de Araujo
 
 Instruções de Instalação
-Pré-requisitos
-Dispositivo Android com Android 6.0 (API 23) ou superior, ou emulador configurado no Android Studio.
-Passos de Instalação
-Baixe ou clone o projeto:
-bash
-Copiar código
-git clone https://github.com/seu-repositorio/guia-de-estudos.git
 
+Pré-requisitos
+
+Dispositivo Android com Android 6.0 (API 23) ou superior, ou emulador configurado no Android Studio.
 
 Abra o projeto no Android Studio:
+
 Vá em File > Open e navegue até a pasta do projeto clonado/baixado.
+
 Compile e execute:
+
 Conecte um dispositivo Android ou configure um emulador.
+
 Clique no botão Run (ícone de play) no Android Studio para compilar e executar o aplicativo.
+
 Instalar no dispositivo:
+
 Caso não esteja usando o Android Studio, você pode exportar o APK do projeto navegando em Build > Build Bundle(s) / APK(s) > Build APK(s).
+
 Em seguida, transfira e instale o APK no dispositivo Android.
 
 Funcionalidades Desenvolvidas
+
 1. CRUD Completo com SQLite:
+
 O aplicativo permite que os usuários criem, leiam, atualizem e excluam (CRUD) disciplinas e conteúdos de estudo. Os dados são armazenados localmente utilizando o banco de dados SQLite, garantindo que as informações sejam preservadas mesmo após o fechamento do aplicativo.
+
 2. 4 Telas:
+
 Tela principal: Exibe uma mensagem de boas-vindas e fornece acesso ao gerenciamento de estudos.
 Tela de cadastro: Permite ao usuário adicionar novas disciplinas ou editar disciplinas existentes.
 Tela de estudos pendentes: Exibe uma lista das disciplinas cadastradas, permitindo marcar como estudado, editar ou excluir um item.
 Tela de estudos realizados: Exibe as disciplinas marcadas como estudadas, permitindo voltar algum item para os estudos pendentes ou até mesmo excluir.
+
 3. Notificações Locais:
+
 O aplicativo envia notificações locais para lembrar o usuário de seus estudos pendentes.
+
 4. Interface de Usuário Intuitiva:
+
 Seguindo o Material Design, o aplicativo possui uma interface simples, fluida e responsiva, facilitando a navegação e o uso por parte dos usuários, através do Jetpack Compose.
 
 Como Usar o Aplicativo Guia de Estudos
